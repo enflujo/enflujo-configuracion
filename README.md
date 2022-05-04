@@ -203,6 +203,12 @@ Confirmar el nombre del usuario:
 git config --global user.name
 ```
 
+Confirmar el email del usuario:
+
+```bash
+git config --global user.email
+```
+
 ### Almacenar las credenciales de Github en el cache dentro de Git:
 
 Tener instalado Github CLI:
@@ -358,24 +364,8 @@ nvm install --lts
 
 ### Instalar Yarn
 
-1. Importar la llave GPG del repositorio y agregar el repositorio Yarn APT a nuestro sistema con los siguientes comandos:
-
 ```bash
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-```
-
-Una vez el repositorio está habilitado, actualizar la lista de paquetes e instalar Yarn
-
-```bash
-sudo apt update
-sudo apt install yarn
-```
-
-Si ya tenemos instalado node a traves de nvm, podemos saltar este paso con el siguiente comando:
-
-```bash
-sudo apt install --no-install-recommends yarn
+npm i -g yarn
 ```
 
 ### Configurar SUDO para que no exija el password
@@ -389,5 +379,5 @@ sudo visudo
 2. Ir al final del archivo `/etc/sudoers` y agregar la siguiente linea
 
 ```bash
-`usuario.computador` ALL=(ALL) NOPASSWD:ALL
+`suNombreDeUsuario` ALL=(ALL) NOPASSWD:ALL
 ```
