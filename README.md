@@ -241,7 +241,9 @@ Escogemos después la cuenta desde donde queremos loguearnos. Por lo general se 
 
 Si se escoge la autenticación por medio del navegador web es necesario ingresar el codigo que aparece en este punto de la instalación. Ingresando este código en el navegador la autenticación queda completa con este mensaje: "logged in as nombre.usuario"
 
-### Instalar Docker (usando el repositorio)
+### Instalar Docker usando el repositorio
+
+Antes de instalar Docker Engine por primera vez en una nueva máquina es necesario configurar el repositorio de Docker. Luego es posible instalar y actualizar Docker desde su repositorio.
 
 Configurar el repositorio:
 
@@ -312,6 +314,23 @@ Pasos para crear el grupo:
 
 ```bash
  docker run hello-world
+```
+
+### Configurar Docker para que se inicie al prender el computador
+La mayoría de distribuciones de Linux (RHEL, CentOS, Fedora, Debian, Ubuntu 16.04 y superiores) usan systemd para controlar qué servicios se inician cuando se prende el computador. En Debian y Ubuntu el servicio de Docker está configurado para iniciar por defecto. Para iniciar Docker y Containerd al prender el computador en otras distribuciones se usan los siguientes comandos:
+
+```bash
+ sudo systemctl enable docker.service
+
+ sudo systemctl enable containerd.service
+```
+
+Para desactivar este comportamiento se usa el mismo comando pero con *disable*.
+
+```bash
+ sudo systemctl disable docker.service
+
+ sudo systemctl disable containerd.service
 ```
 
 ### Instalar y actualizar NVM (Node.js Version Manager)
