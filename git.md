@@ -1,3 +1,5 @@
+<img src="/carpeta-imagenes/git.png" alt="git" />
+
 # Configurar Git
 
 Esta configuración es para todos los repositorios
