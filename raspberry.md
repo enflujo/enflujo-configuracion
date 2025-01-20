@@ -1,3 +1,6 @@
+
+<img src="/carpeta-imagenes/rpi5cover.png" alt="rpi5" style= "height: 500px;"/>
+
 # Cluster de Raspberry Pi
 
 ## Equipos
@@ -23,7 +26,7 @@ Descargar [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 - Crear nombre de usuario y contraseña. Estos los usamos luego para conectarse por SSH.
 - (opcional) Configurar el WiFi donde SSID es el nombre de la red.
 
-<img src="/carpeta-imagenes/opciones-avanzadas.png" alt="require config p"/>
+<img src="/carpeta-imagenes/opciones-avanzadas.png" alt="require config p" style="height: 800px;"/>
 
 ## Configurar la Raspberry
 
