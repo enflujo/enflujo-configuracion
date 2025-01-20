@@ -1,3 +1,5 @@
+<img src="/carpeta-imagenes/docker.png" alt="rpi5" style= "height: 250px;"/>
+
 # Instalar Docker usando el repositorio
 
 Antes de instalar Docker Engine por primera vez en una nueva máquina es necesario configurar el repositorio de Docker. Luego es posible instalar y actualizar Docker desde su repositorio.
