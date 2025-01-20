@@ -1,3 +1,4 @@
+![Node JS](./carpeta-imagenes/prettier.png)
 # Configuración de Prettier en VS Code
 
 ## Paso 1: Abrir preferences
