@@ -1,3 +1,5 @@
+<img src="/carpeta-imagenes/esp32.png" alt="rpi5" style= "height: 250px;"/>
+
 # ESP32
 
 ## WIFI ESP-WROM 32
