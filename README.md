@@ -1,21 +1,23 @@
+<img src="/carpeta-imagenes/logo-enflujo-92.png" alt="logo enflujo"/>
+
 # Tutoriales de Instalación y Configuración
 
-¡Bienvenido a este repositorio! Aquí encontrarás una colección de tutoriales paso a paso para instalar y configurar diversas herramientas y tecnologías.
+Aquí encontrarás una colección de tutoriales paso a paso para instalar y configurar diferentes herramientas y tecnologías que utilizamos en el laboratorio.
 
 ## Contenido del Repositorio
 
-links
+- [Node.js](https://github.com/enflujo/enflujo-configuracion/blob/main/node.md)
+- [Configuración de un servidor nuevo](https://github.com/enflujo/enflujo-configuracion/blob/main/Configuraci%C3%B3n%20de%20un%20servidor%20nuevo.md)
+- [ESP32](https://github.com/enflujo/enflujo-configuracion/blob/main/esp32.md)
+- [Docker](https://github.com/enflujo/enflujo-configuracion/blob/main/docker.md)
+- [Git](https://github.com/enflujo/enflujo-configuracion/blob/main/git.md)
+- [Prettier](https://github.com/enflujo/enflujo-configuracion/blob/main/prettier.md)
+- [Raspberry Pi](https://github.com/enflujo/enflujo-configuracion/blob/main/raspberry.md)
+- [Rust en Windows](https://github.com/enflujo/enflujo-configuracion/blob/main/rust-windows.md)
+- [Sudo](https://github.com/enflujo/enflujo-configuracion/blob/main/sudo.md)
+- [ZSH](https://github.com/enflujo/enflujo-configuracion/blob/main/zsh.md)
 
-### ¿Qué Puedes Esperar?
-Cada tutorial está diseñado para ser claro y fácil de seguir. Incluye:
-1. **Requisitos previos**: Lo que necesitas antes de comenzar.
-2. **Pasos detallados**: Instrucciones paso a paso.
-3. **Solución de problemas**: Consejos para resolver errores comunes.
 
-## Cómo Usar Este Repositorio
 
-1. Explora las carpetas del repositorio.
-2. Selecciona el tutorial que te interesa.
-3. Sigue los pasos descritos en el archivo correspondiente.
 
 
