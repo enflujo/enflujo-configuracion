@@ -1,3 +1,5 @@
+<img src="/carpeta-imagenes/zsh.png" alt="zsh" style= "height: 400px;"/>
+
 # ZSH
 
 Para tener un terminal más cómodo con colores.
