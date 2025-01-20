@@ -23,7 +23,7 @@ Descargar [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 - Crear nombre de usuario y contraseña. Estos los usamos luego para conectarse por SSH.
 - (opcional) Configurar el WiFi donde SSID es el nombre de la red.
 
-![Opciones Avanzadas](./opciones-avanzadas.png)
+<img src="/carpeta-imagenes/opciones-avanzadas.png" alt="require config p"/>
 
 ## Configurar la Raspberry
 
