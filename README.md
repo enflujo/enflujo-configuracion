@@ -1,4 +1,4 @@
-<img src="/carpeta-imagenes/logo-enflujo-92.png" alt="logo enflujo"/>
+<img src="/carpeta-imagenes/logo-enflujo-92.png" alt="logo enflujo" style = "height: 250px"/>
 
 # Tutoriales de Instalación y Configuración
 
