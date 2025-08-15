@@ -1,12 +1,14 @@
-<img src="/carpeta-imagenes/esp32.png" alt="rpi5" style= "height: 250px;"/>
-
-![Pines](https://naylampmechatronics.com/img/cms/ESP32/ESP32-Pinout.jpg)
-
 # ESP32
+
+<img src="./carpeta-imagenes/esp32.png" alt="rpi5" style= "height: 250px;"/>
 
 ## WIFI ESP-WROM 32
 
-En el Laboratorio tenemos varias placas ESP-WROM 32. A continuación la configuración de estas para programarlas
+En el Laboratorio tenemos varias placas ESP-WROM 32. A continuación la configuración de estas para programarlas.
+
+### Pines
+
+![Pines](https://naylampmechatronics.com/img/cms/ESP32/ESP32-Pinout.jpg)
 
 ### Configurar Arduino IDE para programar la placa
 

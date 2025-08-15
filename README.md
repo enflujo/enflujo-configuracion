@@ -1,4 +1,4 @@
-<img src="/carpeta-imagenes/logo-enflujo-92.png" alt="logo enflujo" style = "height: 250px"/>
+<img src="./carpeta-imagenes/logo-enflujo-92.png" alt="logo enflujo" style="height: 250px"/>
 
 # Tutoriales de Instalación y Configuración
 
@@ -16,8 +16,3 @@ Aquí encontrarás una colección de tutoriales paso a paso para instalar y conf
 - [Rust en Windows](https://github.com/enflujo/enflujo-configuracion/blob/main/rust-windows.md)
 - [Sudo](https://github.com/enflujo/enflujo-configuracion/blob/main/sudo.md)
 - [ZSH](https://github.com/enflujo/enflujo-configuracion/blob/main/zsh.md)
-
-
-
-
-

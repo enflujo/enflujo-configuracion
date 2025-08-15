@@ -1,4 +1,4 @@
-<img src="/carpeta-imagenes/zsh.png" alt="zsh" style= "height: 400px;"/>
+<img src="./carpeta-imagenes/zsh.png" alt="zsh" style= "height: 400px;"/>
 
 # ZSH
 
@@ -20,27 +20,27 @@ sudo apt dist-upgrade --yes
 sudo apt install zsh --yes
 ```
 
-***Definir como SHELL predeterminado:***
+**_Definir como SHELL predeterminado:_**
 
 ```bash
 chsh -s $(which zsh)
 ```
 
-***Salir:***
+**_Salir:_**
 
 ```bash
 exit
 ```
 
-***volver a entrar:***
+**_volver a entrar:_**
 
 ```bash
 ssh enflujo@enflujo1.local
 ```
 
-### Al reiniciar debe configurarse el zsh. Para ello hay dos opciones:
+## Al reiniciar debe configurarse el zsh. Para ello hay dos opciones
 
-1. Escribir en el terminal zsh y luego escoger la opción (2).
+1. Escribir en el terminal `zsh` y luego escoger la opción (2).
 
 2. Al entrar de nuevo escoger la opción (2) si el menú de opciones aparece automáticamente
 
@@ -66,20 +66,20 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ### Plugins del ZSH
 
-**zsh-autosuggestions**
+#### zsh-autosuggestions
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
-**zsh fast syntax highlighting**
+#### zsh fast syntax highlighting
 
 ```bash
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
   ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 ```
 
-**Powerlevel10k**
+#### Powerlevel10k
 
 1. Instalar las fuentes:
 
@@ -90,19 +90,19 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
 
 2. Escoger las fuentes desde el terminal. Abrir Terminal → Preferencias y escoger el profile predeterminado. Escoger luego `custom fonts` (activarlo si aun no lo está) y escoger `MesloLGS NF Regular`.
 
-### Hacer lo siguiente para configurar las fuentes en VS Code:
+### Hacer lo siguiente para configurar las fuentes en VS Code
 
 Abrir File → Preferences → Settings (PC) o Code → Preferences → Settings (Mac), escribir `terminal.integrated.fontFamily` en la caja de búsqueda y poner el nombre de la fuente: `MesloLGS NF`. Para ver los cambios es necesario reiniciar VS Code.
 
 3. Instalar el tema en sí mismo:
 
-3.a. Clonar el repositorio:
+3.1. Clonar el repositorio:
 
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-3.b. Poner el tema dentro del archivo `~/.zshrc` (para abrir este archivo seguir las instrucciones abajo "Activar estos plugins")
+3.2. Poner el tema dentro del archivo `~/.zshrc` (para abrir este archivo seguir las instrucciones abajo "Activar estos plugins")
 
 ```bash
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -132,7 +132,7 @@ Con el teclado, presionar la fecha de abajo hasta la línea que dice `plugins=(g
 plugins=(git zsh-autosuggestions fast-syntax-highlighting)
 ```
 
-Para [actualizar Oh My ZSH automáticamente](https://github.com/ohmyzsh/ohmyzsh#getting-updates), quitar el comentario `#` en la linea.
+Para [actualizar Oh My ZSH automáticamente](https://github.com/ohmyzsh/ohmyzsh#getting-updates), quitar el comentario `#` en la línea.
 
 ```bash
 zstyle ':omz:update' mode auto

@@ -1,6 +1,6 @@
-<img src="/carpeta-imagenes/docker.png" alt="rpi5" style= "height: 250px;"/>
-
 # Instalar Docker usando el repositorio
+
+<img src="./carpeta-imagenes/docker.png" alt="rpi5" style="height: 250px;"/>
 
 Antes de instalar Docker Engine por primera vez en una nueva máquina es necesario configurar el repositorio de Docker. Luego es posible instalar y actualizar Docker desde su repositorio.
 
@@ -76,6 +76,7 @@ Para evitar poner siempre en la terminal `sudo` antecediendo al comando `docker`
 ```
 
 ### Configurar Docker para que se inicie al prender el computador
+
 La mayoría de distribuciones de Linux (RHEL, CentOS, Fedora, Debian, Ubuntu 16.04 y superiores) usan systemd para controlar qué servicios se inician cuando se prende el computador. En Debian y Ubuntu el servicio de Docker está configurado para iniciar por defecto. Para iniciar Docker y Containerd al prender el computador en otras distribuciones se usan los siguientes comandos:
 
 ```bash
@@ -84,9 +85,10 @@ La mayoría de distribuciones de Linux (RHEL, CentOS, Fedora, Debian, Ubuntu 16.
  sudo systemctl enable containerd.service
 ```
 
-Para desactivar este comportamiento se usa el mismo comando pero con *disable*.
+Para desactivar este comportamiento se usa el mismo comando pero con _disable_.
 
 ```bash
  sudo systemctl disable docker.service
 
  sudo systemctl disable containerd.service
+```

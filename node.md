@@ -1,5 +1,6 @@
-![Node JS](./carpeta-imagenes/node-logo.png)
 # ¿Qué es Node.js?
+
+![Node JS](./carpeta-imagenes/node-logo.png)
 
 Node.js es un entorno de ejecución para JavaScript y permite que puedas usar JavaScript para crear servidores web, trabajar con bases de datos, y construir aplicaciones completas. En otras palabras, <u>te permite usar JavaScript para hacer aplicaciones tanto del lado del servidor (backend), como en el navegador (frontend).</u>
 

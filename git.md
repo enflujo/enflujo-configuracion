@@ -1,11 +1,15 @@
-<img src="/carpeta-imagenes/git.png" alt="git" />
-
 # Configurar Git
+
+<img src="./carpeta-imagenes/git.png" alt="git" />
 
 Esta configuración es para todos los repositorios
 
 ```bash
 git config --global user.name "nombre.usuario"
+```
+
+```bash
+git config --global user.email "usuario@ejemplo.com"
 ```
 
 **Confirmar el nombre del usuario:**
